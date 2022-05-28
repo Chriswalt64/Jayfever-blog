@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "Learning Git, changing themes, and just putting in work."
+date:   2022-05-28 12:20:00
+categories: jekyll update development
+---
+Web development has always felt just outside and to the left of my "Circle of comfort" when it comes to programming. I've always been essentially a backend developer. Honestly that may not even be the right term. My entire career has been working in higher education Information Technology, and I have always programmed in proprietary environments using proprietary languages that really only get used within their respective systems. 
+
+regardless, web development has never been a part of that wheelhouse, so its always seemed foreign. But I know that I need to make an effort and try to stick with learning. Its hard for my focused-challenged brain. But hey, a babys gotta do what a babys gotta do. 
+
+![A babys gotta do what a babys gotta do](https://tenor.com/view/rugrats-tommy-chuckie-phil-baby-gif-3700414)
+
+I got the blog stood up using Netlify and Jekyll, and it took literally like two minutes to get it going. Granted, it was all the fun boilerplate you see when you using SSGs (Static Site Generators for people who hate people who use acronyms) but it was a site with a URL. Which reminds me, I need to get one thats not all *my-blog.netlify.ass.titties.net*
+
+The first thing I realized is I can't be editing and making posts directly in Github like a maniac, so I knew I wanted to use VS code locally. And that means GIT. 
+
+## Git
+
+Git is like the boogeyman for developers I think. Everybody knows what it is, but its so mysterious that nobody really *knows* git. Outside of Git push, everyone I know has to look up git documentations three times before they know what they're supposed to be using as far as commands go. That could be just my experience though, no system I have ever used has been very 'git friendly'. But I think their is at least some truth to that though, I've spoken to friends and coworkers who feel similarly. 
+
+# interjection
+
+Okay, there is something that has made a huge boom near my house and it scares the shit out of me every time it happens. Its been twice in the last like 10 minutes. It sounds like either a truck backfiring or some kind of machinery dropping something heavy
+
+## Git 2: after the interjection
+
+Git isn't super hard or weird to setup, you just download an installer on a windows machine. I tried using Winget (some kind of command line thing for windows CLI stuff, but it didnt seem to take) but that didnt quite work. Although it could also be that I was using the terminal witin VS code. Powershell within vscode for whatever reason doesnt recognize commands that I've installed like Git. Its like its not refreshing or something. I updated vscode but that didnt work. I'll have to investigate further.
+
+Once I got Git working and cloned my repository, I knew I had to ditch the Minima theme. No offense but it was offensive to me. I was personally offended. 
+
+# Jekyll themes
+
+At the time of writing, I havent actually pushed the theme change to the blog yet so it might not even work. But it seems that gem themes literally just take one line change and they take. We'll see. I went with jekyll-theme-yat, it looked nice, but there was one big selling point.
+
+**A switch for light and dark mode**
+
+later on I might try and write my own theme. If I do, I really wanna make one that changes based on browser/system settings for light or dark mode. Because why would I got to a website that *can* see my preference set on my device and then says ***hey fuck that***. I dont mean to drag anybody who's theme doesnt do that, but if its possile, why not?
+
+**For the record** I dont even know if thats possible with SSGs. Just kind of talking out of my ass. 
+
+I hope I can make myself stick to this. Its something creative for me to do that is actually building a skillset. 
+
+-Jayfever
+
+`                                                                                      
+         ,---._                                                                       
+       .-- -.' \                                                                      
+       |    |   :                        .--.,                                        
+       :    ;   |                      ,--.'  \                               __  ,-. 
+       :        |                      |  | /\/               .---.         ,' ,'/ /| 
+       |    :   :  ,--.--.        .--, :  : :     ,---.     /.  ./|  ,---.  '  | |' | 
+       :          /       \     /_ ./| :  | |-,  /     \  .-' . ' | /     \ |  |   ,' 
+       |    ;   |.--.  .-. | , ' , ' : |  : :/| /    /  |/___/ \: |/    /  |'  :  /   
+   ___ l          \__\/: . ./___/ \: | |  |  .'.    ' / |.   \  ' .    ' / ||  | '    
+ /    /\    J   : ," .--.; | .  \  ' | '  : '  '   ;   /| \   \   '   ;   /|;  : |    
+/  ../  `..-    ,/  /  ,.  |  \  ;   : |  | |  '   |  / |  \   \  '   |  / ||  , ;    
+\    \         ;;  :   .'   \  \  \  ; |  : \  |   :    |   \   \ |   :    | ---'     
+ \    \      ,' |  ,     .-./   :  \  \|  |,'   \   \  /     '---" \   \  /           
+  "---....--'    `--`---'        \  ' ;`--'      `----'             `----'            
+                                  `--`                                                `
