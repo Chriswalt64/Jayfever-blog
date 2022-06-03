@@ -5,7 +5,14 @@ description: > # this means to ignore newlines until "baseurl:"
   Jayfever's Blog. Not sure what that means yet, but here we are. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jayfever.netlify.app" # the base hostname & protocol for your site
+favicon: "favicon-32x32.png" # the favicon for your site
 github_username:  Chriswalt64
+header_pages:
+   - archives.html
+   - categories.html
+   - tags.html
+   - about.html
+   - colophon.html
 theme: jekyll-theme-yat
 # Build settings
 markdown: kramdown

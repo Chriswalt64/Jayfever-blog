@@ -8,7 +8,7 @@ Web development has always felt just outside and to the left of my "Circle of co
 
 regardless, web development has never been a part of that wheelhouse, so its always seemed foreign. But I know that I need to make an effort and try to stick with learning. Its hard for my focused-challenged brain. But hey, a babys gotta do what a babys gotta do. 
 
-![A babys gotta do what a babys gotta do](https://tenor.com/view/rugrats-tommy-chuckie-phil-baby-gif-3700414)
+![A babys gotta do what a babys gotta do](https://i.ytimg.com/vi/O3ENAiRMJaE/maxresdefault.jpg)
 
 I got the blog stood up using Netlify and Jekyll, and it took literally like two minutes to get it going. Granted, it was all the fun boilerplate you see when you using SSGs (Static Site Generators for people who hate people who use acronyms) but it was a site with a URL. Which reminds me, I need to get one thats not all *my-blog.netlify.ass.titties.net*
 
